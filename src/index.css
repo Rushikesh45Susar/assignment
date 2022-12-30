@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-fill .nav-item, .nav-fill>.nav-link {
+  flex: none !important;
+  text-align: center;
+}
+
+.addButton{
+  background-color: transparent;
+}
+
+.backbtn{
+  background-color: transparent;
+  border: none;
+}
+
+.bookdiv{
+  display: flex;
+  justify-content: space-between;
+}
